@@ -3,10 +3,10 @@ Project created August 3, 2019.
 README created August 30, 2019.
 
 ### Project Title
-Bikeshare project
+Bikeshare project for Udacity Data Analytics nanodegree.
 
 ### Description
-Project looks at Chicago, New York City, and Washington bike information including trip start and stop stations, duration of journey, user stats.
+Project looks at Chicago, New York City, and Washington bike information including trip start and stop stations, duration of journey, user stats. Outputs popular month, day of week, hour, start station, end station, frequent combination of start and end stations, mean travel time, earliest, most recent, and common year of birth.
 
 ### Files used
 Files used include:

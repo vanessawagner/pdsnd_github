@@ -14,8 +14,7 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
 
-    city = input('what city would you like to look at: chicago, new york city, or washington?')
-    city = city.lower()
+    city = input('what city would you like to look at: chicago, new york city, or washington?').lower()
     """city=chicago"""
     while city not in ['chicago', 'new york city', 'washington']:
         city = input(
@@ -114,8 +113,7 @@ def trip_duration_stats(df):
     print('Mean travel time =', format(mean_travel), 'seconds.')
 
 def display_raw_data(df, line_by_line):
-    display=input('would you like to see 5 lines of raw user data?')
-    display=display.lower()
+    display=input('would you like to see 5 lines of raw user data?').lower()
     if display =='yes':
         print(df.iloc[line_by_line:line_by_line+5])
         line_by_line += 5
